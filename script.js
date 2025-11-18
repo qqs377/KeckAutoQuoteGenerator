@@ -642,6 +642,12 @@ function QuoteGenerator() {
                 New Quote
               </button>
               <button
+                onClick={() => setShowQuote(false)}
+                className="flex-1 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition"
+              >
+                Edit Quote
+              </button>
+              <button
                 onClick={exportToExcel}
                 className="flex-1 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition flex items-center justify-center gap-2"
               >
