@@ -636,16 +636,16 @@ function QuoteGenerator() {
 
             <div className="flex gap-4 mt-6">
               <button
-                onClick={resetForm}
-                className="flex-1 py-3 bg-gray-600 text-white rounded-lg font-semibold hover:bg-gray-700 transition"
-              >
-                New Quote
-              </button>
-              <button
                 onClick={() => setShowQuote(false)}
                 className="flex-1 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition"
               >
                 Edit Quote
+              </button>
+              <button
+                onClick={resetForm}
+                className="flex-1 py-3 bg-gray-600 text-white rounded-lg font-semibold hover:bg-gray-700 transition"
+              >
+                New Quote
               </button>
               <button
                 onClick={exportToExcel}
